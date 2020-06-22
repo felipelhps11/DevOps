@@ -1,5 +1,5 @@
-from app import index
+num1 = 2
+num2 = 3
 
-def test_index():
-    assert index() == "Hellow, World!"  
-
+soma = num1 + num2
+print(f"A soma e = {soma}")
